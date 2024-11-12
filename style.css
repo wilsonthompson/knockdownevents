@@ -1,0 +1,1270 @@
+/* Algemene Stijlen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Afbeeldingen consistent schalen */
+figure img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Optioneel: centreren van de figcaption */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.countdown {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.event {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Algemene Stijlen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Galerij Sectie */
+.categorie {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.categorie h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* Flexbox Styling voor Media-secties */
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+/* Styling voor de Uitslagen Lijst */
+.media h4 {
+    width: 100%;
+    color: #444;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Afbeeldingen Styling */
+.media img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.media img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Styling */
+.media video {
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 2px solid #555;
+}
+
+/* Contact Sectie Styling */
+.contact {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.submit-button:active {
+    background-color: #003f7f;
+}
+
+body {
+    background-image: url('path/to/your/background-image.jpg'); /* Vervang dit door het pad naar jouw afbeelding */
+    background-size: cover; /* Zorg ervoor dat de afbeelding de gehele achtergrond bedekt */
+    background-position: center; /* Plaats de afbeelding in het midden */
+    background-repeat: no-repeat; /* Herhaal de afbeelding niet */
+    color: #ffffff; /* Zorg ervoor dat de tekst goed leesbaar is, pas aan indien nodig */
+}
+
+header {
+    padding-bottom: 40px; /* Voeg extra ruimte toe onder de header */
+}
+
+nav ul {
+    margin-top: 40px; /* Voeg extra ruimte toe boven de navigatielinks */
+}
+
+header {
+    background-color: #333; /* Voorbeeld achtergrondkleur */
+    color: #fff;
+    padding: 20px; /* Boven- en ondermarge voor de header */
+    padding-bottom: 40px; /* Extra ruimte onder de header */
+}
+
+nav ul {
+    list-style-type: none; /* Verwijder de opsommingstekens */
+    padding: 0; /* Verwijder padding */
+    margin: 0; /* Verwijder margin */
+    margin-top: 40px; /* Voeg extra ruimte toe boven de navigatielinks */
+}
+
+nav ul li {
+    display: inline; /* Zet de links naast elkaar */
+    margin-right: 20px; /* Ruimte tussen de links */
+}
+
+nav ul li a {
+    color: #fff; /* Kleur van de links */
+    text-decoration: none; /* Verwijder onderlijnen */
+}
+/* Stel achtergrondafbeelding in voor de gehele <main> sectie */
+main {
+    background-image: url('https://1stplace4trophies.co.uk/product_images/uploaded_images/shutterstock-219773119.jpg');
+    background-size: cover; /* Zorgt ervoor dat de afbeelding het hele gebied bedekt */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px; /* Extra ruimte rondom de content binnen <main> */
+    min-height: 70vh; /* Zorgt ervoor dat het hoofdgedeelte minstens 70% van de hoogte heeft */
+}
+main {
+    color: white;
+}
+main {
+    position: relative;
+    color: white;
+}
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Verduistert de afbeelding */
+    z-index: -1;
+}
+/* Formulierstijl */
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Stijl voor de chatbox */
+.chatbox {
+    color: black; /* Zet de tekstkleur naar zwart */
+    background-color: #f9f9f9; /* Een lichte achtergrond voor contrast */
+    padding: 10px; /* Voeg wat padding toe */
+    border-radius: 5px; /* Maak de hoeken iets ronder */
+    border: 1px solid #ccc; /* Lichte rand om de chatbox */
+}
+
+/* Witte tekst met zwarte contouren voor paragrafen */
+p {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Witte tekst met zwarte contouren voor paragrafen */
+p {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.categorie h3 {
+    color: black;
+    font-weight: vetgedrukt; /* Maakt de tekst vetgedrukt */
+    font-size: 1.2em; /* Aanpassen van de lettergrootte indien nodig */
+}
+
+/* Stijl voor links met witte achtergrondmarkering */
+.event a {
+    color: black; /* Zwarte tekstkleur */
+    background-color: white; /* Witte achtergrondmarkering */
+    padding: 2px 5px; /* Ruimte rond de tekst voor een markeringseffect */
+    border-radius: 3px; /* Ronde hoeken voor een netter uiterlijk */
+    text-decoration: none; /* Geen onderstreping */
+}
+
+/* Optionele hover-effect */
+.event a:hover {
+    background-color: #f0f0f0; /* Lichtgrijze achtergrond bij hover */
+}
+/* Professioneel en leesbaar lettertype instellen voor de gehele pagina */
+body {
+    font-family: 'Arial', sans-serif; /* Kies een standaard lettertype of voeg Google Fonts in voor extra opties */
+}
+
+/* Stijl voor de "Bezoek de officiële site" links */
+.event a {
+    color: black; /* Zwarte tekstkleur voor goede leesbaarheid */
+    background-color: white; /* Witte achtergrond om de link te markeren */
+    padding: 5px 10px; /* Ruimte rond de tekst voor betere markering */
+    border-radius: 4px; /* Zachte hoeken */
+    font-size: 16px; /* Iets grotere tekst voor betere leesbaarheid */
+    font-weight: 500; /* Licht vetgedrukte tekst voor visueel gewicht */
+    text-decoration: none; /* Geen onderstreping */
+    font-family: 'Verdana', sans-serif; /* Aanpasbaar font */
+}
+
+/* Hover-effect voor de link */
+.event a:hover {
+    background-color: #f0f0f0; /* Lichtgrijze achtergrond bij hover */
+    color: #333; /* Iets donkerder kleur voor contrast */
+}
+
+/* Algemeen, leesbaar lettertype instellen voor de pagina */
+body {
+    font-family: 'Arial', sans-serif; /* Of kies een standaard lettertype */
+}
+
+/* Stijl voor de "Bezoek de officiële site" links */
+.event a {
+    color: black; /* Zwarte tekstkleur */
+    background-color: white; /* Witte achtergrond voor markering */
+    padding: 5px 10px; /* Ruimte rond de tekst voor duidelijkheid */
+    border-radius: 4px; /* Ronde hoeken voor een zachte uitstraling */
+    font-size: 16px; /* Goed leesbare tekstgrootte */
+    font-weight: normal; /* Niet vetgedrukt */
+    text-decoration: none; /* Geen onderstreping */
+    font-family: 'Verdana', sans-serif; /* Alternatief leesbaar font */
+}
+
+/* Hover-effect voor de link */
+.event a:hover {
+    background-color: #f0f0f0; /* Lichtgrijze achtergrond bij hover */
+    color: #333; /* Iets donkerdere kleur voor contrast */
+}
+
+/* Boekstijl */
+.book {
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+}
+
+.book .cover {
+    font-weight: bold;
+}
+
+.book-content {
+    display: none;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.book-content h3 {
+    margin-top: 0;
+}
+
+.book-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-content ul li {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+.book-page {
+    display: none;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #333;
+}
+/* Boekstijl */
+.book {
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.book .cover {
+    font-weight: bold;
+}
+
+.book-content {
+    display: none;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.book-content h3 {
+    margin-top: 0;
+}
+
+.book-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-content ul li {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+.book-page {
+    display: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Logo styling */
+
+
+
+
+/* Zorg ervoor dat de header-inhoud niet overlapt met het logo */
+header {
+    position: relative;
+    padding-left: 120px;       /* Zorgt ervoor dat tekst naast het logo staat */
+}
+
+/* Optioneel: Algemene styling voor de header */
+header h1 {
+    margin-top: 0;
+    padding-top: 10px;         /* Zorgt ervoor dat de titel in lijn staat met het logo */
+}
+/* Logo-styling */
+.logo {
+    width: 150px; /* Pas de grootte naar wens aan */
+    border-radius: 10px; /* Maakt de randen iets afgerond */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtiele schaduw om diepte te creëren */
+    background-color: #f8f8f8; /* Zachte achtergrondkleur */
+    padding: 8px; /* Ruimte rondom de afbeelding voor een omkaderingseffect */
+    transition: transform 0.3s ease; /* Animatie voor een lichte vergroting bij hover */
+}
+
+/* Reset marges en padding om de volledige pagina te vullen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Zorgt ervoor dat de hele body bedekt is met de achtergrondafbeelding */
+html, body {
+    height: 100%; /* Zorgt ervoor dat de body de volledige hoogte heeft */
+    width: 100%;  /* Zorgt ervoor dat de body de volledige breedte heeft */
+    margin: 0;
+    padding: 0;
+    background-image: url('link-naar-je-achtergrondafbeelding.jpg'); /* Vervang dit door het pad naar jouw afbeelding */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Voor een lichte overlay voor betere leesbaarheid (optioneel) */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Een semi-transparante overlay, pas de kleur en transparantie aan indien nodig */
+    z-index: -1;
+}
+
+/* Centreer de inhoud met een vaste breedte */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Mobile-first CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgba(4, 4, 4, 0.011);
+}
+
+.logo {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.training iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.training {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.training img, .training iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.training img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    .training {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .training img, .training iframe {
+        width: 45%;
+        height: auto;
+    }
+
+    main {
+        padding: 40px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 50px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .training {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: black;
+    flex: 1;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Algemene stijl */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.logo {
+    height: auto;
+    max-height: 100px; /* Verhoog de hoogte naar wens */
+    width: auto;
+    max-width: 500px; /* Dit zorgt ervoor dat het logo proportioneel blijft */
+    display: block;
+}
+
+.logo {
+    max-height: 100px; /* Pas aan naar de gewenste hoogte */
+    width: auto;
+    margin-right: 15px;
+    float: left;
+}
+
+/* Stijlen voor figcaptions (onderschriften bij afbeeldingen) */
+figure figcaption {
+    color: #ffffff; /* Witte tekstkleur */
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Maak de tekst van de labels wit */
+label {
+    color: #ffffff; /* Witte tekstkleur */
+    font-size: 16px;
+}
+
+/* Maak de tekst van de labels zwart */
+label {
+    color: #000000; /* Zwarte tekstkleur */
+    font-size: 16px;
+}
+
+/* Maak de tekst van de trainingskoppen zwart */
+h3 {
+    color: #000000; /* Zwarte tekstkleur */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+<figcaption style="color: #000000;">Karate Combat Training</figcaption>
+<figcaption style="color: #000000;">Muay Thai Training</figcaption>
+<figcaption style="color: #000000;">Kickboxing Training</figcaption>
+<figcaption style="color: #000000;">Boxing Training</figcaption>
+<figcaption style="color: #000000;">Martial Arts Training</figcaption>
+<figcaption style="color: #000000;">Knuckle Boxing Training</figcaption>
+
+.zwarte-tekst {
+    color: #000000;  
+}
+
+figcaption {
+    color: black;
+}
+
+.media {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.media-element {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Stijl voor training-afbeeldingen */
+.training-image {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Algemene stijl */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.training-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.training-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.training-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.training-video {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Stijl voor witte tekst van de labels */
+.sportcategorie h3,
+.sportcategorie label,
+.sportcategorie select {
+    color: white;
+}
+
+/* Optioneel: Verhoog het contrast van de tekst */
+.sportcategorie label {
+    font-weight: bold;
+}
+
+/* Maak de dropdown (select element) tekst ook wit */
+.sportcategorie select {
+    background-color: #333;
+    color: white;
+}
+
+/* Uniforme afmetingen voor afbeeldingen en video's */
+.training-image,
+.training-video {
+    width: 500px;
+    height: 300px;
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding/video netjes past */
+}
+
+.training-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.training-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Basisstijl voor mobiel (small screens) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/* Stijlen voor trainingen */
+.training-grid {
+    display: block;
+    padding: 20px;
+}
+
+.training-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.training-image,
+.training-video {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Media Queries voor grotere schermen */
+@media (min-width: 600px) {
+    nav ul {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) {
+    .training-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .training-card {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .training-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .training-image,
+    .training-video {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Algemene layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Trainingen Sectie */
+.training-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.training-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.media-image,
+.media-video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Responsieve Design */
+@media (max-width: 768px) {
+    .training-card {
+        max-width: 100%;
+    }
+
+    .media-image,
+    .media-video {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .media-image,
+    .media-video {
+        height: 200px;
+    }
+}
+
+/* Header stijl */
+header {
+    background-color: #333; /* Donkere achtergrondkleur voor contrast */
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color: #fff; /* Tekstkleur wit */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #ff9900; /* Kleur bij hover voor interactief effect */
+}
+
+/* Basisopmaak (mobile first) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.training-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.training-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.training-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.training-video {
+    width: 100%;
+    height: 200px;
+}
+
+/* Media query voor tablets en bredere schermen */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .training-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .training-card {
+        width: 48%;
+    }
+
+    .training-video {
+        height: 250px;
+    }
+}
+
+/* Media query voor desktops */
+@media (min-width: 1024px) {
+    .training-card {
+        width: 31%;
+    }
+
+    .training-video {
+        height: 300px;
+    }
+}

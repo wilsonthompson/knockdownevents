@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knock Down Events - Evenementen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <img src="https://www.spidergym.net/wp-content/uploads/2024/11/Logo-Knock-Down-Events-2.webp" alt="Knock Down Events Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sporten.html">Sporten</a></li>
+                <li><a href="evenementen.html">Evenementen</a></li>
+                <li><a href="trainingen.html">Trainingen</a></li>
+                <li><a href="promotoren.html">Promotoren</a></li>
+                <li><a href="galerij.html">Galerij</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="forum.html">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Title -->
+    <h1>Evenementen</h1>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Aankomende Evenementen</h2>
+
+            <!-- Evenementen Tabel -->
+            <table>
+                <tr>
+                    <th>Sport</th>
+                    <th>Datum</th>
+                    <th>Aftelklok</th>
+                    <th>Afbeelding</th>
+                    <th>Video</th>
+                </tr>
+
+                <!-- Karate Combat -->
+<tr>
+    <td>Karate Combat</td>
+    <td>12 april 2024</td>
+    <td><div id="countdown-karate"></div></td>
+    <td>
+        <img class="media-element" src="https://mmachannel.com/wp-content/uploads/2022/12/karate_combat_pit-960x540.jpg" alt="Karate Combat">
+    </td>
+    <td>
+        <iframe class="media-element" src="https://www.youtube.com/embed/JDxvZ3TKdag" allowfullscreen></iframe>
+    </td>
+</tr>
+
+<!-- Muay Thai -->
+<tr>
+    <td>Muay Thai</td>
+    <td>25 mei 2024</td>
+    <td><div id="countdown-muaythai"></div></td>
+    <td>
+        <img class="media-element" src="https://wmta.eu/wp-content/uploads/2016/05/10409103_838312992920861_6003546021191624117_n.jpg" alt="Muay Thai">
+    </td>
+    <td>
+        <iframe class="media-element" src="https://www.youtube.com/embed/kWL_JKkqWcw?si=WnHyUz8CM34HW9pe" allowfullscreen></iframe>
+    </td>
+</tr>
+
+<!-- Boxing -->
+<tr>
+    <td>Boxing</td>
+    <td>15 maart 2024</td>
+    <td><div id="countdown-boxing"></div></td>
+    <td>
+        <img class="media-element" src="https://wallpaperaccess.com/full/113283.jpg" alt="Boxing">
+    </td>
+    <td>
+        <iframe class="media-element" src="https://www.youtube.com/embed/q_ijqFq44FM" allowfullscreen></iframe>
+    </td>
+</tr>
+
+<!-- MMA -->
+<tr>
+    <td>Mixed Martial Arts</td>
+    <td>3 juni 2024</td>
+    <td><div id="countdown-mma"></div></td>
+    <td>
+        <img class="media-element" src="https://cdn.vox-cdn.com/thumbor/hb8iKQtdTk7nfMAEMDR1dKCBNsU=/0x0:1296x840/1220x813/filters:focal(545x317:751x523):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58976885/Nick_Newell.0.jpeg" alt="MMA">
+    </td>
+    <td>
+        <iframe class="media-element" src="https://www.youtube.com/embed/ea7Uf7BVBvs" allowfullscreen></iframe>
+    </td>
+</tr>
+
+<!-- Bare Knuckle Boxing -->
+<tr>
+    <td>Bare Knuckle Boxing</td>
+    <td>20 augustus 2024</td>
+    <td><div id="countdown-bkb"></div></td>
+    <td>
+        <img class="media-element" src="https://i.pinimg.com/originals/04/e5/83/04e583575526bb7f93999872e87bc51f.jpg" alt="Bare Knuckle Boxing">
+    </td>
+    <td>
+        <iframe class="media-element" src="https://www.youtube.com/embed/eAFyWQ952Xo?si=IwUX2ydUSq-ifY_-" allowfullscreen></iframe>
+    </td>
+</tr>
+            </table>
+        </section>
+    </main>
+
+    <script>
+        function initializeCountdown(id, eventDate) {
+            const countdownElement = document.getElementById(id);
+            const targetDate = new Date(eventDate).getTime();
+
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const timeLeft = targetDate - now;
+
+                if (timeLeft <= 0) {
+                    countdownElement.innerHTML = "Evenement gestart!";
+                    clearInterval(interval);
+                    return;
+                }
+
+                const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+                countdownElement.innerHTML = `${days}d ${hours}u ${minutes}m ${seconds}s`;
+            }
+
+            const interval = setInterval(updateCountdown, 1000);
+            updateCountdown();
+        }
+
+        initializeCountdown("countdown-karate", "April 12, 2024 00:00:00");
+        initializeCountdown("countdown-muaythai", "May 25, 2024 00:00:00");
+        initializeCountdown("countdown-boxing", "March 15, 2024 00:00:00");
+        initializeCountdown("countdown-mma", "June 3, 2024 00:00:00");
+        initializeCountdown("countdown-bkb", "August 20, 2024 00:00:00");
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Knock Down Events. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>
+</html>
